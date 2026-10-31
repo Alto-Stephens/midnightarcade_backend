@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/github/Alto-Stephens.github.io"
+		},
+		{
+			"name": "midnightarcade_backend",
+			"path": "."
+		},
+		{
+			"name": "gamelibrary",
+			"path": "../../gamelibrary/gamelibrary"
+		}
+	],
+	"settings": {}
+}

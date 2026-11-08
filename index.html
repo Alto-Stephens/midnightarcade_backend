@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#09080f" />
+    <meta
+      name="description"
+      content="Midnight Arcade API documentation and available endpoints."
+    />
+    <title>Midnight Arcade API</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="api-shell">
+      <header class="hero">
+        <p class="eyebrow">INSERT COIN TO CONNECT</p>
+        <h1>MIDNIGHT <span>ARCADE</span></h1>
+        <p class="intro">
+          Browse the available API endpoint or
+          jump straight into the game collection.
+        </p>
+      </header>
+
+      <section class="endpoint-card" aria-labelledby="endpoints-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="endpoints-title">API ENDPOINTS</h2>
+          </div>
+          <span class="status"><span aria-hidden="true"></span> ONLINE</span>
+        </div>
+        <a class="endpoint" href="/api/games">
+          <span class="method">GET</span>
+          <span class="endpoint-path">/api/games</span>
+          <span class="endpoint-description">All classic arcade games</span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <p class="hint">
+          The response is JSON and is ready to use in the Midnight Arcade
+          React catalog.
+        </p>
+      </section>
+
+      <footer>
+        <span>MIDNIGHT ARCADE API</span>
+      </footer>
+    </main>
+  </body>
+</html>
